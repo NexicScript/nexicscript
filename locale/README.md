@@ -1,9 +1,13 @@
+<p align="center">
+  <img src="../assets/NexicScript_Banner_README.jpg" alt="NexicScript Banner" width="100%">
+</p>
+
 # Locale Module / Módulo Locale
 
 | Metadata | Value |
 |-----------|-----------|
 | Module | Locale |
-| Version | 1.1.0 |
+| Version | 1.1.1 |
 | Status | Stable |
 | Infrastructure | NexicScript Data Infrastructure |
 | Standards | ISO 639-1, ISO 4217 |
@@ -23,15 +27,19 @@ The module is organized by language and contains independent datasets designed f
 
 #### English
 
-- https://data.nexicscript.org/locale/en/languages.json
-- https://data.nexicscript.org/locale/en/currencies.json
-- https://data.nexicscript.org/locale/en/regional-formats.json
+| Dataset | Access |
+|----------|----------|
+| languages.json | [Open](https://data.nexicscript.org/locale/en/languages.json) |
+| currencies.json | [Open](https://data.nexicscript.org/locale/en/currencies.json) |
+| regional-formats.json | [Open](https://data.nexicscript.org/locale/en/regional-formats.json) |
 
 #### Spanish
 
-- https://data.nexicscript.org/locale/es/languages.json
-- https://data.nexicscript.org/locale/es/currencies.json
-- https://data.nexicscript.org/locale/es/regional-formats.json
+| Dataset | Access |
+|----------|----------|
+| languages.json | [Open](https://data.nexicscript.org/locale/es/languages.json) |
+| currencies.json | [Open](https://data.nexicscript.org/locale/es/currencies.json) |
+| regional-formats.json | [Open](https://data.nexicscript.org/locale/es/regional-formats.json) |
 
 ### Directory Structure
 
@@ -80,15 +88,19 @@ El módulo está organizado por idioma y contiene conjuntos de datos independien
 
 #### Inglés
 
-- https://data.nexicscript.org/locale/en/languages.json
-- https://data.nexicscript.org/locale/en/currencies.json
-- https://data.nexicscript.org/locale/en/regional-formats.json
+| Dataset | Acceso |
+|----------|----------|
+| languages.json | [Abrir](https://data.nexicscript.org/locale/en/languages.json) |
+| currencies.json | [Abrir](https://data.nexicscript.org/locale/en/currencies.json) |
+| regional-formats.json | [Abrir](https://data.nexicscript.org/locale/en/regional-formats.json) |
 
 #### Español
 
-- https://data.nexicscript.org/locale/es/languages.json
-- https://data.nexicscript.org/locale/es/currencies.json
-- https://data.nexicscript.org/locale/es/regional-formats.json
+| Dataset | Acceso |
+|----------|----------|
+| languages.json | [Abrir](https://data.nexicscript.org/locale/es/languages.json) |
+| currencies.json | [Abrir](https://data.nexicscript.org/locale/es/currencies.json) |
+| regional-formats.json | [Abrir](https://data.nexicscript.org/locale/es/regional-formats.json) |
 
 ### Estructura del Directorio
 
