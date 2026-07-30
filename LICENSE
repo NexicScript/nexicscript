@@ -1,0 +1,67 @@
+# NexicScript — License
+
+Copyright (c) 2026 NexicScript Project
+
+===============================================================================
+## Summary
+===============================================================================
+
+- You can use, copy, and integrate this data freely, including in
+  commercial products.
+- You can adapt, extend, or remix it.
+- You must give credit to NexicScript as the source.
+- If you publicly redistribute this database, or a modified version of
+  it, you must keep it open under this same license. You cannot take this
+  data, close it off, and resell it as your own proprietary dataset. This is
+  the same protection used by OpenStreetMap — it exists specifically so a
+  shared database can't be taken and re-closed by someone else.
+- This applies to the database itself (the compiled, structured data).
+  If you build a product or app that simply uses this data internally,
+  that product does not need to be open-sourced — only a redistribution of
+  the database itself triggers this requirement.
+
+The full license terms are the ones that govern — see below.
+
+===============================================================================
+## License
+===============================================================================
+
+This database is made available under the **Open Database License (ODbL) v1.0**,
+published by Open Data Commons: <https://opendatacommons.org/licenses/odbl/1.0/>
+
+A human-readable summary of ODbL is available at:
+<https://opendatacommons.org/licenses/odbl/summary/>
+
+> Contains information from **NexicScript**, which is made available here
+> under the Open Database License (ODbL): <https://opendatacommons.org/licenses/odbl/1.0/>
+
+Any rights in the individual contents of the database (e.g., the bilingual
+text descriptions) are additionally licensed under the **Database Contents
+License (DbCL) v1.0**: <https://opendatacommons.org/licenses/dbcl/1.0/>
+
+===============================================================================
+## Additional notices specific to NexicScript
+===============================================================================
+
+1. **No official affiliation.** NexicScript is not affiliated with,
+   sponsored by, or endorsed by any government agency, postal authority, or
+   standards body (ISO or others) whose public information is reflected in
+   this data. Use of this data does not imply certification, audit, or
+   endorsement by NexicScript of any product built with it.
+
+2. **No warranty.** This data is compiled and curated from public sources
+   and may become outdated between updates. It is provided "as is," without
+   warranty of any kind. If your use case requires legally or operationally
+   critical accuracy, verify directly against the official source before
+   relying on it.
+
+3. **Attribution notice format.** When crediting NexicScript, please use
+   substantially the following notice, replacing the bracketed parts as
+   needed:
+
+   ```
+   Contains information from NexicScript (https://github.com/<your-repo>),
+   made available under the Open Database License (ODbL) v1.0.
+   ```
+
+===============================================================================
