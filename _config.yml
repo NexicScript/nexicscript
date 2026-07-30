@@ -1,0 +1,10 @@
+title: NexicScript
+description: NexicScript Data Infrastructure
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compressed
