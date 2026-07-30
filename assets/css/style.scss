@@ -1,53 +1,22 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "minima";
 
 /* Fondo principal */
 body {
-    background: linear-gradient(
-        135deg,
-        #050816 0%,
-        #081428 35%,
-        #041b2e 70%,
-        #04140c 100%
-    );
+  background: linear-gradient(
+    135deg,
+    #050816,
+    #081428,
+    #041b2e,
+    #04140c
+  ) !important;
 }
 
-/* Contenido */
-.page-content {
-    background: rgba(10, 15, 30, 0.90);
-    padding: 25px;
-    border-radius: 16px;
-}
-
-/* Títulos */
-h1 {
-    color: #ffffff;
-}
-
-h2 {
-    color: #00bfff;
-}
-
-h3 {
-    color: #00ff7b;
-}
-
-/* Texto */
-body,
-p,
-li,
-td,
-th {
-    color: #e5e7eb;
-}
-
-/* Tablas */
-table {
-    background: rgba(255,255,255,0.03);
-}
-
-th {
-    background: rgba(0,119,255,0.15);
+/* Contenedor */
+.wrapper {
+  background: rgba(5, 8, 22, 0.85);
+  padding: 20px;
+  border-radius: 12px;
 }
