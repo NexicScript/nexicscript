@@ -3,7 +3,7 @@
 | Metadata | Value |
 |-----------|-----------|
 | Module | Locale |
-| Version | 1.0.0 |
+| Version | 1.1.0 |
 | Status | Stable |
 | Infrastructure | NexicScript Data Infrastructure |
 | Standards | ISO 639-1, ISO 4217 |
@@ -15,52 +15,52 @@
 
 ### Overview
 
-The Locale module is part of the NexicScript Data Infrastructure and provides curated international datasets for languages, currencies, and regional formats. These resources are designed for universal use across software, platforms, services, organizations, research projects, automation systems, educational environments, and digital ecosystems.
+The Locale module is part of the NexicScript Data Infrastructure and provides curated international datasets for languages, currencies, and regional formatting standards.
+
+The module is organized by language and contains independent datasets designed for localization and internationalization across software, platforms, services, organizations, research projects, automation systems, educational environments, and digital ecosystems.
 
 ### Available Datasets
 
-- Spanish Dataset: https://data.nexicscript.org/locale/es.json
-- English Dataset: https://data.nexicscript.org/locale/en.json
+#### English
 
-### Dataset Structure
+- https://data.nexicscript.org/locale/en/languages.json
+- https://data.nexicscript.org/locale/en/currencies.json
+- https://data.nexicscript.org/locale/en/regional-formats.json
 
-```json
-{
-  "meta": {
-    "version": "1.0.0",
-    "module": "locale",
-    "base_language": "en"
-  },
-  "supported_languages": {},
-  "corporate_currencies": {},
-  "regional_formats": {}
-}
+#### Spanish
+
+- https://data.nexicscript.org/locale/es/languages.json
+- https://data.nexicscript.org/locale/es/currencies.json
+- https://data.nexicscript.org/locale/es/regional-formats.json
+
+### Directory Structure
+
+```txt
+locale/
+├── en/
+│   ├── currencies.json
+│   ├── languages.json
+│   └── regional-formats.json
+├── es/
+│   ├── currencies.json
+│   ├── languages.json
+│   └── regional-formats.json
+└── README.md
 ```
 
 ### Included Standards
 
 #### Languages (ISO 639-1)
 
-Provides standardized language identifiers and metadata for international interoperability.
+Standardized language identifiers and metadata used for international interoperability.
 
 #### Currencies (ISO 4217)
 
-Provides internationally recognized currency codes, symbols, names, and formatting information.
+International currency codes, names, symbols, and formatting information.
 
 #### Regional Formats
 
-Provides regional standards for displaying dates, times, numbers, decimal separators, thousands separators, and currencies.
-
-### Use Cases
-
-- Software Development
-- APIs and Services
-- Enterprise Systems
-- Research Projects
-- Automation Systems
-- Educational Platforms
-- Digital Ecosystems
-- Data Processing Pipelines
+Regional standards for dates, times, numbers, decimal separators, thousands separators, and currency formatting.
 
 ### Contributing
 
@@ -72,52 +72,52 @@ Contributions are welcome through Pull Requests. All datasets must follow offici
 
 ### Descripción General
 
-El módulo Locale forma parte de la Infraestructura de Datos de NexicScript y proporciona conjuntos de datos internacionales curados para idiomas, monedas y formatos regionales. Estos recursos están diseñados para uso universal en software, plataformas, servicios, organizaciones, proyectos de investigación, sistemas de automatización, entornos educativos y ecosistemas digitales.
+El módulo Locale forma parte de la Infraestructura de Datos de NexicScript y proporciona conjuntos de datos internacionales curados para idiomas, monedas y estándares de formato regional.
+
+El módulo está organizado por idioma y contiene conjuntos de datos independientes diseñados para procesos de localización e internacionalización en software, plataformas, servicios, organizaciones, proyectos de investigación, sistemas de automatización, entornos educativos y ecosistemas digitales.
 
 ### Datasets Disponibles
 
-- Dataset en Español: https://data.nexicscript.org/locale/es.json
-- Dataset en Inglés: https://data.nexicscript.org/locale/en.json
+#### Inglés
 
-### Estructura del Dataset
+- https://data.nexicscript.org/locale/en/languages.json
+- https://data.nexicscript.org/locale/en/currencies.json
+- https://data.nexicscript.org/locale/en/regional-formats.json
 
-```json
-{
-  "meta": {
-    "version": "1.0.0",
-    "modulo": "locale",
-    "idioma_base": "es"
-  },
-  "idiomas_soportados": {},
-  "monedas_corporativas": {},
-  "formatos_regionales": {}
-}
+#### Español
+
+- https://data.nexicscript.org/locale/es/languages.json
+- https://data.nexicscript.org/locale/es/currencies.json
+- https://data.nexicscript.org/locale/es/regional-formats.json
+
+### Estructura del Directorio
+
+```txt
+locale/
+├── en/
+│   ├── currencies.json
+│   ├── languages.json
+│   └── regional-formats.json
+├── es/
+│   ├── currencies.json
+│   ├── languages.json
+│   └── regional-formats.json
+└── README.md
 ```
 
 ### Estándares Incluidos
 
 #### Idiomas (ISO 639-1)
 
-Proporciona identificadores estandarizados de idiomas y metadatos asociados para interoperabilidad internacional.
+Identificadores estandarizados de idiomas y metadatos asociados para interoperabilidad internacional.
 
 #### Monedas (ISO 4217)
 
-Proporciona códigos internacionales de moneda, símbolos, nombres e información de formato.
+Códigos internacionales de moneda, nombres, símbolos e información de formato.
 
 #### Configuraciones Regionales
 
-Proporciona estándares regionales para la representación de fechas, horas, números, separadores decimales, separadores de miles y monedas.
-
-### Casos de Uso
-
-- Desarrollo de Software
-- APIs y Servicios
-- Sistemas Empresariales
-- Proyectos de Investigación
-- Sistemas de Automatización
-- Plataformas Educativas
-- Ecosistemas Digitales
-- Procesamiento de Datos
+Estándares regionales para fechas, horas, números, separadores decimales, separadores de miles y formatos monetarios.
 
 ### Contribuciones
 
